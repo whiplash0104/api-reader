@@ -15,7 +15,6 @@ spec:
     spec:
       containers:
         - name: api-backend
-          image: {{IMAGE}}
           env:
             - name: TABLE
               value: "WKSP_RACING.TRANSCRIBE_AUDIO"
