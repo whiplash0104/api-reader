@@ -29,4 +29,4 @@ spec:
               value: "racing_medium"
           image: iad.ocir.io/idlhjo6dp3bd/api-reader:latest
           ports:
-            - containerPort: 3000
+            - containerPort: 8080
