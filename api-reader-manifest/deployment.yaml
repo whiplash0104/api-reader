@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: api-reader
-  namespace: api-reader-test
+  namespace: api-reader
 spec:
   replicas: 3
   selector:
